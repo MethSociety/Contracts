@@ -36,10 +36,6 @@ jobs:
 
       - name: run gh_deploy
         run: |
-          git fetch origin gh-pages
-          git merge origin/gh-pages
-          git add .
-          git commit -m "Resolve merge conflicts and update gh-pages"
-          git push origin gh-pages
+          git push origin --delete gh-pages
           mkdocs build --clean
           mkdocs gh-deploy --force
