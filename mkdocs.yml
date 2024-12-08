@@ -1,0 +1,10 @@
+site_name: The Methamphetamine Society of Eternal Clouds
+site_url: https://meth.city
+theme:
+  name: material
+  palette:
+    primary: deep-orange
+    accent: amber
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
