@@ -1,6 +1,6 @@
 ---
 authors:
-- jrt
+- johntrentdev
 title: Guiding Principles
 lastmod: 2024-12-07T15:21:08-05:00
 date: 2024-12-07T15:21:07-05:00
